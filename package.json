@@ -2,6 +2,5 @@
     "name": "reddit-news-app",
     "version": "0.0.1",
     "description": "Little news page of reddit posts",
-    "main": "/scripts/app.js",
     "author": "adtrahan146"
 }
