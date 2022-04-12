@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "newsPaper";
+    src: url('assets/OldNewspaperTypes.ttf') format('truetype');
+}
+
+div{
+    /* gap: 5px 5px;  */
+    /* align-items: stretch;  */
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+body{
+    font-family: "newsPaper";
+    background-color: #FEFEFC;
+}
+
+button{
+    display: block;
+    float: inline-end;
+    bottom: 0;
+}
+
+img{
+    width: 75%;
+    height: 25%;
+    min-height: 200px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.title, .subreddit, .news-link, .top-comment, .thumbnail{
+    padding: 10px;
+    margin: 10px;
+}
+
+#input-field-div{
+    width: fit-content;
+}
+/*
+.news-link{
+    position: absolute;
+
+    bottom: 0;
+}
+
+.top-comment{
+    font-size: 50%;
+} */
