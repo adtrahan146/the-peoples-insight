@@ -9,21 +9,21 @@ export const makeGETRequest = async (url) => {
     return data;
 }
 
-//makePUTrequest
-export const makePUTrequest = async (url, data) =>{
-    const options = new Object();
-    options.method = "PUT";
-    options.headers = {"Content-type": "application/json"};
-    options.body = JSON.stringify(data);
-    const response = await fetch(url, options);
-    return response;
-}
+//makePUTrequest -- Was testing with JSONBin, but will implement later to make full stack
+// export const makePUTrequest = async (url, data) =>{
+//     const options = new Object();
+//     options.method = "PUT";
+//     options.headers = {"Content-type": "application/json"};
+//     options.body = JSON.stringify(data);
+//     const response = await fetch(url, options);
+//     return response;
+// }
 
-export const makeJSONPutRequest = async (url, data) =>{
-    const options = new Object();
-    options.method = "PUT";
-    options.headers = {"Content-type": "application/json"};
-    options.body = JSON.stringify(data);
-    const response = await fetch(url, options);
-    return response;
-}
+// export const makeJSONPutRequest = async (url, data) =>{
+//     const options = new Object();
+//     options.method = "PUT";
+//     options.headers = {"Content-type": "application/json"};
+//     options.body = JSON.stringify(data);
+//     const response = await fetch(url, options);
+//     return response;
+// }
