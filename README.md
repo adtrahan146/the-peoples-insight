@@ -4,7 +4,7 @@
 ###### Active Link: https://adtrahan146.github.io/the-peoples-insight/
 
 
-&emsp;&emsp;Incorporates persistent data across sessions via localStorage.  It also pulls live news data from different subreddits I think are valuable.  So now I can just go here for the quick hot takes instead of wasting 2 hours scrolling.
+&emsp;&emsp;Incorporates persistent data across sessions via localStorage.  It also pulls live news data from different subreddits I think are valuable.  So now I can just go here for the quick hot takes instead of wasting 2 hours scrolling.  Apologies if there's any profanity in the top comment... working on incorporating a filter just in case, but top comments are usually not profane on these subreddits.
 
 ##### Controls:
  - type in anything to the name field, it isn't saved anywhere but your browser.
