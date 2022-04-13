@@ -9,13 +9,13 @@ export function initControls(){
     input.style = 'width: fit-content; font-size: 65%;';
     identifier.style = 'width: fit-content; font-size: 65%;';
     input.innerHTML = (`
-        <input class='mx-1 btn' id="input-text" type="text" placeholder="Add your own! (omit 'r/')"></input>
+        <input class='mx-1' id="input-text" type="text" placeholder="Add your own! (omit 'r/')"></input>
         <input class='mx-1 btn' id="submit-button" type="button" value="Submit"></input>
         <input class='mx-1 btn btn-danger' id="remove-button" type="button" value="Clear"></input>
         <hr>
     `);
     identifier.innerHTML = (`
-        <input class='mx-1 btn' id="UniqueID" type="text" placeholder="News For: " value=""></input>
+        <input class='mx-1' id="UniqueID" type="text" placeholder="News For: " value=""></input>
         <input class='mx-1 btn' id="idCheck" type="button" value="Load/Save"></input>
         <hr>
     `);
