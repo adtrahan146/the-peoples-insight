@@ -1,9 +1,10 @@
 # The People's Insight :newspaper:
 #### News app that gets the day's articles from top news subreddits.  Utilizes Reddit's RESTful API to get JSON data from subreddits and displays in a nice little newspaper style.
 
+###### Active Link: https://adtrahan146.github.io/the-peoples-insight/
 
 
-Incorporates persistent data across sessions via localStorage.  It also pulls live data from different subreddits I like to frequent.  So now I can just go here for the quick hot takes.
+&emsp;&emsp;Incorporates persistent data across sessions via localStorage.  It also pulls live news data from different subreddits I think are valuable.  So now I can just go here for the quick hot takes instead of wasting 2 hours scrolling.
 
 ##### Controls:
  - type in anything to the name field, it isn't saved anywhere but your browser.
