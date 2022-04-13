@@ -30,12 +30,6 @@ img{
     filter: grayscale(100%);
 }
 
-input{
-    -webkit-user-select: text; /* Chrome, Opera, Safari */
-    -moz-user-select: text; /* Firefox 2+ */
-    -ms-user-select: text; /* IE 10+ */
-    user-select: text; /* Standard syntax */}
-
 .title, .subreddit, .news-link, .top-comment, .thumbnail{
     padding: 10px;
     margin: 10px;
