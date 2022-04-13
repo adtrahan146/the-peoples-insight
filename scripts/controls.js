@@ -1,4 +1,4 @@
-import { getUserChoice, updateClient } from './app.js';
+import { getUserChoice, updateClient, clearAll } from './app.js';
 
 export function initControls(){
     const input = document.createElement("div");
@@ -24,10 +24,4 @@ export function initControls(){
     document.getElementById('remove-button').addEventListener('click', clearAll);
     document.getElementById('submit-button').addEventListener('click', getUserChoice);
     document.getElementById('idCheck').addEventListener('click', updateClient);
-}
-
-function clearAll(){
-    document.getElementById('client-selection').innerHTML = ``;
-    const rmName = document.getElementById('UniqueID').value;
-    window.localStorage.removeItem(rmName);
 }

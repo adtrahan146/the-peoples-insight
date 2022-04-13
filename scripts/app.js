@@ -98,6 +98,13 @@ export function updateClient(){
     }
 }
 
+export function clearAll(){
+    document.getElementById('client-selection').innerHTML = ``;
+    userChoices = [];
+    const rmName = document.getElementById('UniqueID').value;
+    window.localStorage.removeItem(rmName);
+}
+
 
 export async function getComments(postName){
     //get rid of first 3 chars 't3_faksdfas' where t3_ says the type of element 
