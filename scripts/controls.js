@@ -15,7 +15,7 @@ export function initControls(){
         <hr>
     `);
     identifier.innerHTML = (`
-        <input class='mx-1' id="UniqueID" type="text" placeholder="News For: " value=""></input>
+
         <input class='mx-1 btn' id="idCheck" type="button" value="Load/Save"></input>
         <hr>
     `);

@@ -17,7 +17,7 @@ const rScience = document.getElementById('science');
 let list = [rTech, rWorldNews, rTechnology, rUpliftingNews, rFuturology, rScience];
 
 let userChoices = [];
-let uniqueID = '';
+let uniqueID = 'client';
 let oldDataParsed = false;
 
 function setUp(){
@@ -81,9 +81,9 @@ export function getUserChoice(){
 
 
 export function updateClient(){
-    if(uniqueID == ''){
-        uniqueID = document.getElementById('UniqueID').value;
-    }
+    // if(uniqueID == 'client'){
+    //     uniqueID = document.getElementById('UniqueID').value;
+    // }
     if(JSON.parse(window.localStorage.getItem(uniqueID)) && oldDataParsed==false){
         //window.localStorage.setItem(uniqueID, JSON.stringify(userChoices));
         //if it exists, get it
@@ -101,8 +101,7 @@ export function updateClient(){
 export function clearAll(){
     document.getElementById('client-selection').innerHTML = ``;
     userChoices = [];
-    const rmName = document.getElementById('UniqueID').value;
-    window.localStorage.removeItem(rmName);
+    window.localStorage.removeItem(uniqueID);
 }
 
 
