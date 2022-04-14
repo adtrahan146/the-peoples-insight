@@ -3,7 +3,7 @@
     src: url('assets/OldNewspaperTypes.ttf') format('truetype');
 }
 
-div{
+div, body{
     /* gap: 5px 5px;  */
     /* align-items: stretch;  */
     text-align: center;
@@ -37,6 +37,10 @@ img{
 
 #input-field-div{
     width: fit-content;
+}
+
+#cp{
+    font-size: smaller;
 }
 /*
 .news-link{
